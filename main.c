@@ -2,7 +2,7 @@
 
 #include "libmatematica.h"
 
-int main() {
+void main() {
      float anguloRad;
     printf("Digite o angulo em radianos\n");
     scanf("%f",&anguloRad);
@@ -13,5 +13,4 @@ int main() {
     float tangente = calcular_tangente(anguloRad);
     printf("Tangente de %.2f radianos: %.6f\n", anguloRad, tangente);
 
-    return 0;
 }
